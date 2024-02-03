@@ -10,6 +10,7 @@ namespace Lab3App
     {
         static void Main(string[] args)
         {
+            
             // Create a collection board
             CollectionBoard board = new CollectionBoard();
 
@@ -33,15 +34,16 @@ namespace Lab3App
 
             // Associate the CollectionBoard object to all the possible Collectiables
             // using a foreach loop
-            foreach (Collectable collectable in  possibleCollectiable)
+            /*foreach (Collectable collectable in  possibleCollectiable)
             {
                 collectable.Board = board;
-            }
-
+            }*/
+            
             // Create an empty list to start collecting 
             List<Collectable> collected = new List<Collectable>();
 
             //Collect the items one-by-one in a foreach loop
+            
             foreach (Collectable collectable in possibleCollectiable)
             { 
                 collectable.AddMe(collected);
