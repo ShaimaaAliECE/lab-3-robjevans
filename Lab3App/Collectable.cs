@@ -9,7 +9,7 @@ namespace Lab3App
     abstract class Collectable : Displayable
     {
         public string Description;
-        public static CollectionBoard brd = new CollectionBoard();
+        public CollectionBoard Brd;
         public Collectable(string desc) {
             this.Description = desc;
         }

@@ -16,7 +16,7 @@ namespace Lab3App
 
         public override void Display()
         {
-            Console.WriteLine(this.Description + " is displayed");
+            Console.WriteLine("Diamond" + this.Description + " is displayed");
         }
     }
 }

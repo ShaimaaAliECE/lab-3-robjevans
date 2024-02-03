@@ -16,8 +16,8 @@ namespace Lab3App
         }
         public void UpdateTotalScore()
         { 
-            brd.TotalScore += this.Score;
-            Console.WriteLine("Total Score is updated to: " +  brd.TotalScore);
+            Brd.TotalScore += this.Score;
+            Console.WriteLine("Total Score is updated to: " +  Brd.TotalScore);
         }
         public override void Display()
         {

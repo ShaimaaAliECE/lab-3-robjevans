@@ -18,8 +18,8 @@ namespace Lab3App
         }
         public void UpdateTotalValue()
         {
-            brd.TotalValue += this.Value;
-            Console.WriteLine("Total Value is updated to: " + brd.TotalValue);
+            Brd.TotalValue += this.Value;
+            Console.WriteLine("Total Value is updated to: " + Brd.TotalValue);
         }
         public override void AddMe(List<Collectable> tester)
         {

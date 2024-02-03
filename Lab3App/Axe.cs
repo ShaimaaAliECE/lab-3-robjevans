@@ -16,5 +16,9 @@ namespace Lab3App
         {
             Console.WriteLine("Axe is used");
         }
+        public override void Display()
+        {
+            Console.WriteLine($"Axe {Description} is displayed");
+        }
     }
 }

@@ -15,5 +15,10 @@ namespace Lab3App
         {
             Console.WriteLine("MagicWand is used");
         }
+        public override void Display()
+        {
+            Console.WriteLine($"MagicWand {Description} is displayed");
+
+        }
     }
 }
